@@ -1,6 +1,6 @@
 # Evolutionary Computation Project
  
-## Novel playing time allocation for professional sport teams using evolutionary algorithm and deep learning techniques
+Novel playing time allocation for professional sport teams using evolutionary algorithm and deep learning techniques
 
 ### main.py
 Contain evolutionary algorithms, including crossover, mutation, fitness and so on.
