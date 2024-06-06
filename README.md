@@ -32,7 +32,10 @@ To set up this project locally, follow these steps:
 
 To run the project, execute the following command:
 ```sh
+# Start predicting the time allocation
 python main.py
+# Train the model as the core of the fitness function
+python train.py
 ```
 Ensure you have the necessary datasets in the dataset folder.
 
