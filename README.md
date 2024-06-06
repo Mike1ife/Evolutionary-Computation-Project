@@ -38,7 +38,7 @@ python main.py
 python train.py
 ```
 Ensure you have the necessary datasets in the dataset folder.</br>
-Data Sources: [2020-2022](https://www.kaggle.com/datasets/davidabrahamsmith/nba-players-per-game-and-advanced-stats-19802021) [2022-2023](https://www.kaggle.com/datasets/jamiewelsh2/nba-per-game-player-statistics-2022-2023-season) [Team Winrate](https://www.teamrankings.com/nba/stat/win-pct-all-games)
+Data Sources: [2020-2022](https://www.kaggle.com/datasets/davidabrahamsmith/nba-players-per-game-and-advanced-stats-19802021) [2022-2023](https://www.kaggle.com/datasets/jamiewelsh2/nba-per-game-player-statistics-2022-2023-season) [Team Winrate (label)](https://www.teamrankings.com/nba/stat/win-pct-all-games)
 
 ## Project Structure
 - main.py: The main script for running the genetic algorithm and predicting win rates.
