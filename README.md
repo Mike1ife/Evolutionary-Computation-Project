@@ -59,7 +59,7 @@ The load.py script reads player statistics from CSV files, normalizes them, and 
 The neural network model defined in model.py consists of four linear layers with ReLU activation and batch normalization.
 
 ### Training
-The train.py script uses Leave-One-Out Cross-Validation (LOOCV) to evaluate the model's performance and ultimately trains it with the whole dataset.
+The train.py script uses Leave-One-Out Cross-Validation (LOOCV) to evaluate the model's performance and trains it with the whole dataset.
 
 ## Results
 
