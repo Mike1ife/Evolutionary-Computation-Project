@@ -47,20 +47,6 @@ Data Sources: [2020-2022](https://www.kaggle.com/datasets/davidabrahamsmith/nba-
 - train.py: Script for training the model using cross-validation.
 
 ## Methods
-### Data Loading and Preprocessing
-The load.py script reads player statistics from CSV files, normalizes them, and prepares training and testing datasets.
-
-### Evolutionary Algorithm
-- Tournament Selection
-- Uniform Crossove
-- Gaussian Mutation
-- Self-defined Fitness Function
-
-### Model
-The neural network model defined in model.py consists of four linear layers with ReLU activation and batch normalization.
-
-### Training
-The train.py script uses Leave-One-Out Cross-Validation (LOOCV) to evaluate the model's performance and trains it with the whole dataset.
 
 ## Results
 
