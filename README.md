@@ -47,9 +47,10 @@ Ensure you have the necessary datasets in the dataset folder.
 The load.py script reads player statistics from CSV files, normalizes them, and prepares training and testing datasets.
 
 ### Evolutionary Algorithm
-- Selection: Uses tournament selection to choose parents for the next generation.
-- Crossover: Performs uniform crossover to generate offspring.
-- Mutation: Applies Gaussian mutation to introduce variability.
+- Tournament Selection
+- Uniform Crossove
+- Gaussian Mutation
+- Self-defined Fitness Function
 
 ### Model
 The neural network model defined in model.py consists of multiple linear layers with ReLU activation and batch normalization.
