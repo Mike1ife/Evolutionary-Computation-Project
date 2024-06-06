@@ -53,12 +53,12 @@ The load.py script reads player statistics from CSV files, normalizes them, and 
 - Self-defined Fitness Function
 
 ### Model
-The neural network model defined in model.py consists of multiple linear layers with ReLU activation and batch normalization.
+The neural network model defined in model.py consists of four linear layers with ReLU activation and batch normalization.
 
 ### Training
-The train.py script trains the model using Leave-One-Out Cross-Validation (LOOCV) to evaluate its performance.
+The train.py script trains the model and uses Leave-One-Out Cross-Validation (LOOCV) to evaluate its performance.
 
 ## Results
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the License file for more details.
