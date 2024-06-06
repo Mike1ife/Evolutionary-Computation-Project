@@ -51,4 +51,4 @@ Data Sources: [2020-2022](https://www.kaggle.com/datasets/davidabrahamsmith/nba-
 ## Results
 
 ## License
-This project is licensed under the MIT License. See the License file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Mike1ife/Evolutionary-Computation-Project/blob/main/LICENSE) file for more details.
