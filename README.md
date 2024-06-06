@@ -1,10 +1,63 @@
 # Evolutionary Computation Project
- 
+
 Novel playing time allocation for professional sport teams using evolutionary algorithm and deep learning techniques
 
-### main.py
-Contain evolutionary algorithms, including crossover, mutation, fitness and so on.<br />
-Please modify teamname in line 131 to choose which team to predict.
+## Table of Contents
 
-### train.py
-Train a model to predict the winrate of teams based on stats as the core of fitness function.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Methods](#methods)
+- [Results](#results)
+- [License](#license)
+
+## Installation
+
+To set up this project locally, follow these steps:
+
+1. Clone the repository:
+    ```sh
+    https://github.com/Mike1ife/Evolutionary-Computation-Project.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd Evolutionary-Computation-Project
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To run the project, execute the following command:
+```sh
+python main.py
+```
+Ensure you have the necessary datasets in the dataset folder.
+
+## Project Structure
+- main.py: The main script for running the genetic algorithm and predicting win rates.
+- model.py: Contains the neural network model definition.
+- load.py: Handles data loading and preprocessing.
+- train.py: Script for training the model using cross-validation.
+
+## Methods
+### Data Loading and Preprocessing
+The load.py script reads player statistics from CSV files, normalizes them, and prepares training and testing datasets.
+
+### Evolutionary Algorithm
+- Selection: Uses tournament selection to choose parents for the next generation.
+- Crossover: Performs uniform crossover to generate offspring.
+- Mutation: Applies Gaussian mutation to introduce variability.
+
+### Model
+The neural network model defined in model.py consists of multiple linear layers with ReLU activation and batch normalization.
+
+### Training
+The train.py script trains the model using Leave-One-Out Cross-Validation (LOOCV) to evaluate its performance.
+
+## Results
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
